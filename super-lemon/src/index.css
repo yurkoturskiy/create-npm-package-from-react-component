@@ -1,0 +1,49 @@
+.nonsense {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 320px;
+  height: 256px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 1px 1px 2px 1px #ffffff52;
+  transform: translateY(-25%);
+  transition: box-shadow 0.5s;
+  border-radius: 4px;
+}
+
+.nonsense:hover {
+  box-shadow: 1px 1px 24px 2px #ffffff52;
+}
+
+h1 {
+  margin: 12px 0 0 0;
+}
+
+h5 {
+  margin: 12px;
+}
+
+.num-wrapper {
+  display: inline-block;
+  margin: 12px;
+}
+
+.num-value {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto 0 auto;
+  box-shadow: 1px 1px 1px 1px #d7d7d7;
+  text-align: center;
+  line-height: 32px;
+}
+
+.num-capture {
+  font-size: 0.75rem;
+}
+
+.button {
+  margin: 12px;
+}

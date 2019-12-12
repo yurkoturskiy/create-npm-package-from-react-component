@@ -1,5 +1,5 @@
 import React from "react";
-import SuperLemon from "./SuperLemon/index";
+import SuperLemon from "super-lemon";
 import "./App.css";
 
 function App() {
